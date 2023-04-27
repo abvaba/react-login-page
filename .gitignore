@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.idea
+/src/components/loginPage.jsx
+/src/components/successPage.jsx
+/src/hooks/use-auth.js
