@@ -1,11 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
+// import React, {useState} from 'react';
 import './App.css';
+import {Link, Outlet} from "react-router-dom";
 
-function App() {
+const App = () => {
+
   return (
     <div className="App">
-      
+      <Link to='/login-page'>login</Link>
+      <Outlet />
     </div>
   );
 }
