@@ -1,0 +1,8 @@
+$feature: (200: "IRANSansX-UltraLight", 100: "IRANSansX-Thin", 400: "IRANSansX-Regular", 500: "IRANSansX-Medium", 300: "IRANSansX-Light", 800: "IRANSansX-ExtraBold", 600: "IRANSansX-DemiBold", 700: "IRANSansX-Bold", 900: "IRANSansX-Black")
+@each $weight, $name in $feature
+  @font-face
+    font-family: IRANSans
+    font-style: normal
+    font-display: swap
+    src: url("../../assets/fonts/iran-sans-web/#{$name}.woff2") format("woff2")
+    font-weight: $weight

@@ -28,3 +28,5 @@ yarn-error.log*
 /src/components/confirmCode.jsx
 /src/hooks/use-auth.js
 /src/contexts/auth-context.js
+/config/
+/scripts/

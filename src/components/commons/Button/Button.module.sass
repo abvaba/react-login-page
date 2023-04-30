@@ -1,0 +1,14 @@
+@import "styles/variables"
+@import "styles/mixins"
+@import "styles/placeholders"
+.button
+  @extend %f-center
+  background-color: $orange
+  color: #fff
+  padding: .5rem
+  border-radius: .5rem
+  border: none
+  +font(400, 1, 1.2)
+  &:disabled
+    cursor: not-allowed
+    background-color: lighten($orange, 20%)

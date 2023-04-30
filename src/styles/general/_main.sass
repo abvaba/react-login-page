@@ -1,0 +1,21 @@
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+  outline: none
+  &::after, &::before
+    margin: 0
+    padding: 0
+    outline: none
+    box-sizing: inherit
+
+html
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  -webkit-tap-highlight-color: rgba(0,0,0,0)
+  line-height: 1.61803399
+  scroll-behavior: smooth
+  text-rendering: optimizeLegibility
+  text-size-adjust: 100%
+  font-size: clamp(1rem, calc(.15rem + .15vw), 2rem)
+  font-family: 'IRANSans', sans-serif

@@ -1,0 +1,20 @@
+@import "styles/placeholders"
+@import "styles/mixins"
+@import "styles/variables"
+.field
+  @extend %css
+  gap: 0.5rem
+.field_label
+  +font(400, 1, 1,25)
+  color: lighten($black, 0.1)
+.field_input
+  width: 100%
+  border: 1px solid $orange
+  border-radius: 1rem
+  padding: 1rem
+.field_message
+  +font(400, 0.9, 1)
+.otp_codes_container
+  @extend %rrcs
+  flex-wrap: nowrap
+  width: 100%

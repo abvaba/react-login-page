@@ -1,0 +1,1 @@
+export {authApi} from 'app/api/auth-api';

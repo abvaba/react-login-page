@@ -1,0 +1,3 @@
+=font($font-weight, $min-size, $max-size, $min-vw: 320, $max-vw: 1200)
+  font-size: clamp(#{$min-size}rem, calc(#{$min-size}rem + #{$max-size - $min-size} * ((100vw - #{$min-vw}px) / (#{$max-vw - $min-vw}))), #{$max-size}rem)
+  font-weight: $font-weight
